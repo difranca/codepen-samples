@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JS Throttle/Debounce</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <button type="button" class="button" onclick="increment('counter',1);throttledIncrement('throttled_counter',1);debouncedIncrement('debounced_counter',1)">Click Me Fast!</button>
+  <label class="label">Simple click count: </label>
+  <label id="counter" class="label">0</label>
+  <br>
+  <label class="label">Throttled count: </label>
+  <label id="throttled_counter" class="label">0</label>
+  <br>
+  <label class="label">Debounced count: </label>
+  <label id="debounced_counter" class="label">0</label>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

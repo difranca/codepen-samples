@@ -1,0 +1,35 @@
+.container {
+  width: 500px;
+  overflow: hidden;
+}
+
+.button {
+  color: white;
+  float: left;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 3px;
+  font-size: 16px;
+  background-color: #2aaf50;
+  height: 75px;
+}
+
+.button:hover {
+  background-color: #1aaa10;
+}
+
+.button:active {
+  background-color: #4f9a10;
+}
+
+.label {
+  font-size: 18px;
+  font-family: Consolas, monaco, monospace;
+  text-align: center;
+  line-height: 150%;
+  transition-property: color;
+  transition-duration: 300ms;
+  color: green;
+}
