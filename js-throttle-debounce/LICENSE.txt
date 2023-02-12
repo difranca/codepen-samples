@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2022 by Diego França (https://codepen.io/difranca/pen/OJzqeKE)
+Copyright (c) 2023 difranca (https://codepen.io/difranca/pen/OJzqeKE)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
